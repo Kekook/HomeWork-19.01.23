@@ -5,6 +5,6 @@ Console.WriteLine("Введите число");
 int numberN = Convert.ToInt32(Console.ReadLine());
 int startNumber = 1;
 while (startNumber < numberN){
-    Console.WriteLine(startNumber + 1);
+    Console.WriteLine(startNumber + 1);// 
     startNumber = startNumber + 2;
 }
